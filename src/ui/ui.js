@@ -1,5 +1,5 @@
 export function showPokemon(pokemon) {
-    // Número arriba centrado
+   
     document.getElementById("pokemon-id").textContent = `#${String(pokemon.id).padStart(3, '0')}`;
     
     const img = document.getElementById("pokemon-img");

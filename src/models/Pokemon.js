@@ -6,7 +6,7 @@ export default class Pokemon {
         this.sprite = sprite;
         this.height = height;
         this.weight = weight;
-        this.abilities = abilities; // Reto final
-        this.stats = stats;         // Reto final
+        this.abilities = abilities; 
+        this.stats = stats;         
     }
 }
