@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex TDM - Reto Final</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="card">
+        <p id="pokemon-id"></p> <div class="img-container">
+            <img id="pokemon-img" src="" alt="Pokemon">
+        </div>
+        <h1 id="pokemon-name">Cargando...</h1>
+        <div class="types"></div>
+        
+        <div class="nav">
+            <button id="prev-btn">←</button>
+            <button id="next-btn">→</button>
+        </div>
+    </div>
+
+    <div id="pokemon-modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <h2 id="modal-name"></h2>
+            <img id="modal-img" src="" alt="Pokemon">
+            
+            <div class="modal-info-grid">
+                <div class="info-item"><strong>Altura:</strong> <span id="modal-height"></span></div>
+                <div class="info-item"><strong>Peso:</strong> <span id="modal-weight"></span></div>
+            </div>
+            <p class="abilities-text"><strong>Habilidades:</strong> <span id="modal-abilities"></span></p>
+            
+            <h3>Estadísticas</h3>
+            <div id="modal-stats-container"></div> </div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
